@@ -78,4 +78,14 @@ This is not really endored. The different kinds of tests:
     + They do not test what your code does
     + Breaks encapsulation
     + Does not show the path to reach a piece of functionality, or whether the system calls that function correctly.
-    
+
+## Refactoring
+
+Why do we change the implementation of our code: We find a a better way: better design & better performance:
++ We identify abstractions
++ Upgrading dependancies
++ new ways to do things in frameworks, libraries, etc etc
++ Unit tests can inhibit updates because hyper specific tests:
+    + because unit tests test mechanisms more than processes
+    + changes in mechanism make cascading tests taxing to change
+    + ask if the use of the tests truely are necessary for the content of what you are testing for
