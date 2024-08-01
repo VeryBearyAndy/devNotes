@@ -102,3 +102,15 @@ these are external and failures in your tests maybe because of those things and 
 All of these things are inconsistent
 The rate of change is different so they need to be seperated.
 In these instances it would be permissible to hard code it 
+
+## Test Double
+Test doubles are pretend objects and there are many different types
++ Dummies
+    + Doesn't do anything, just a place holder
+    + Essentially passed because we know that is a required member or parameter
++ Fakes
+    + Objects that have working implementations but take shortcuts or not fully realized implementations which makes the not suitable for production
++ Stubs
+    + Provides canned answers to calls made during the test, usually responding at anything at all to anything outside the test
++ Mocks
+    + Objects pre programmed with expectations which form specification of the calls thay expect 
