@@ -20,3 +20,10 @@ implementing the factory method
         }
     }
 ```
+
+In the above example we can see:
++ the use of a static method:
+    + this allows the usage of this method without having to initializing an instance of the class
+    + this further, allows us to create a factory method and thoroughly control the behavior of this type during construction.
++ This can be further expanded to allow for multiple returned implementations of the type, especially in an abstract class:
++ This method is particularly valuable considering the common convention is to avoid throwing errors in constructors, this circumvents that by encapsulating the constructor in the factory method.
