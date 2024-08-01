@@ -89,3 +89,16 @@ Why do we change the implementation of our code: We find a a better way: better 
     + because unit tests test mechanisms more than processes
     + changes in mechanism make cascading tests taxing to change
     + ask if the use of the tests truely are necessary for the content of what you are testing for
+
+
+## Unit Tests
+At the very minimum cannot access the
++ file system
++ database
++ network
++ The clock
+
+these are external and failures in your tests maybe because of those things and you cannot control nor account for variables these things introduce
+All of these things are inconsistent
+The rate of change is different so they need to be seperated.
+In these instances it would be permissible to hard code it 

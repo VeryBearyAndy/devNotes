@@ -12,6 +12,10 @@ description: blablabla
 
 A primary result of this philosophy to software development is that it will minimize the complexity of any system that you write
 
+It removes the pressure of having to write amazing code and allows you to holistically come a solution
+
+
+
 ## Hypotheses Driven Development
 
 This is a design prospect in which you try to guess what is needed or the next steps in development are going to be, then implementing
